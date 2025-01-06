@@ -286,7 +286,7 @@ with tab1:
     go.Bar(
         x=resultados_ordenados["seccion_nombre"],
         y=resultados_ordenados["%LLA Ball"],
-        marker_color='violet',
+        marker_color='pink',
         name='% Ballotage'
     )
  )
@@ -296,7 +296,7 @@ with tab1:
     go.Bar(
         x=resultados_ordenados["seccion_nombre"],
         y=resultados_ordenados["%LLA Gen"],
-        marker_color='pink',
+        marker_color='violet',
         name='% Generales'
     )
  )
@@ -553,7 +553,7 @@ with tab2:
     go.Bar(
         x=resultados_filtrados['Barrio'],
         y=resultados_filtrados['%LLA Ball'],
-        marker_color='violet',
+        marker_color='pink',
         name='% Ballotage'
     )
  )
@@ -563,7 +563,7 @@ with tab2:
     go.Bar(
         x=resultados_filtrados['Barrio'],
         y=resultados_filtrados['%LLA Gen'],
-        marker_color='pink',
+        marker_color='violet',
         name='% Generales'
     )
  )
